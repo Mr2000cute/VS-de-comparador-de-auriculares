@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparación de Auriculares</title>
+  <link rel="stylesheet" href="Estilis.css">
+</head>
+<body>
+  <header>
+    <h1>Comparación de Auriculares</h1>
+    <p>Descubre las ventajas y desventajas de cada marca de auricular en esta comparación.</p>
+  </header>
+
+  <div class="comparison-container">
+    <div class="brand-selection">
+      <label for="brand1">Marca 1:</label>
+      <select id="brand1">
+        <option value="Beats">Beats</option>
+        <option value="Apple">Apple</option>
+        <option value="Sony">Sony</option>
+        <option value="JBL">JBL</option>
+        <option value="Sennheiser">Sennheiser</option>
+        <option value="Xiaomi">Xiaomi</option>
+        <option value="Samsung">Samsung</option>
+        <option value="Huawei">Huawei</option>
+      </select>
+      <label for="brand2">Marca 2:</label>
+      <select id="brand2">
+        <option value="Beats">Beats</option>
+        <option value="Apple">Apple</option>
+        <option value="Sony">Sony</option>
+        <option value="JBL">JBL</option>
+        <option value="Sennheiser">Sennheiser</option>
+        <option value="Xiaomi">Xiaomi</option>
+        <option value="Samsung">Samsung</option>
+        <option value="Huawei">Huawei</option>
+      </select>
+      <button onclick="compare()">Comparar</button>
+    </div>
+
+    <div class="comparison-result">
+      <div class="brand" id="brand1Details">
+        <h2 id="brand1Name">Marca 1</h2>
+        <ul id="brand1Pros" class="pros">
+          <li>Pros</li>
+        </ul>
+        <ul id="brand1Cons" class="cons">
+          <li>Contras</li>
+        </ul>
+      </div>
+      
+      <div class="vs">
+        <h2>VS</h2>
+      </div>
+
+      <div class="brand" id="brand2Details">
+        <h2 id="brand2Name">Marca 2</h2>
+        <ul id="brand2Pros" class="pros">
+          <li>Pros</li>
+        </ul>
+        <ul id="brand2Cons" class="cons">
+          <li>Contras</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="cosas.js"></script>
+</body>
+</html>
